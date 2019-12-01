@@ -1,0 +1,10 @@
+.entry-container {
+  display: grid;
+  grid-template-rows: 40px 75px auto 50px;
+  grid-template-areas: 
+  "nv"
+  "hd"
+  "mn"
+  "ft";
+  background-color: #C6E35F;
+}

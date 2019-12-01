@@ -1,0 +1,33 @@
+
+.info {
+    display: flex;
+    justify-items: center;
+    height: fit-content;
+    margin: 8px;
+  }
+  
+.info img {
+    max-width: 250px; 
+    height: 250px;
+    border-radius: 50px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+@media only screen and (max-width: 500px) {
+    .info {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        height: fit-content;
+        margin: 8px;
+      }
+      
+    .info img {
+        max-width: 250px; 
+        height: 250px;
+        border-radius: 50px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+  }
