@@ -6,7 +6,7 @@
     margin: 8px;
   }
   
-.info img {
+.info-img {
     max-width: 250px; 
     height: 250px;
     border-radius: 50px;
@@ -23,9 +23,9 @@
         margin: 8px;
       }
       
-    .info img {
+    .info-img {
         max-width: 250px; 
-        height: 250px;
+        height: auto;
         border-radius: 50px;
         margin-top: 8px;
         margin-bottom: 8px;
